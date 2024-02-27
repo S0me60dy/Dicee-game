@@ -1,0 +1,59 @@
+/* Just general stuff*/
+body{
+    background-color: #393e46;
+    color: #4ecca3;
+    font-size: 20px;
+}
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.indie-flower-regular {
+font-family: "Indie Flower", cursive;
+font-weight: 400;
+font-style: normal;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+/* Basically the heading */
+
+.refresh-me{
+    font-size: 7.8rem;
+    text-shadow: 5px 0 #232931;
+    margin: 30px;
+}
+
+/* The center elements: two dices and players */
+
+.players{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dices-players{
+    display: grid-inline;
+    gap: 80px;
+    height: 60vh;
+}
+
+/* Footer */
+
+.footer-andrii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+}
+
+.github-link{
+    color: white;
+    text-decoration: none;
+}
